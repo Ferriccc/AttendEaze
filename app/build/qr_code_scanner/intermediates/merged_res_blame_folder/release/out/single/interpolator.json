@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\app\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\66bc4865473200042b6cad49708e932f\\transformed\\appcompat-1.4.2\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\66bc4865473200042b6cad49708e932f\\transformed\\appcompat-1.4.2\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\66bc4865473200042b6cad49708e932f\\transformed\\appcompat-1.4.2\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\66bc4865473200042b6cad49708e932f\\transformed\\appcompat-1.4.2\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\interpolator\\fast_out_slow_in.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\66bc4865473200042b6cad49708e932f\\transformed\\appcompat-1.4.2\\res\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\66bc4865473200042b6cad49708e932f\\transformed\\appcompat-1.4.2\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\qr_code_scanner\\intermediates\\merged_res\\release\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\66bc4865473200042b6cad49708e932f\\transformed\\appcompat-1.4.2\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    }
+]

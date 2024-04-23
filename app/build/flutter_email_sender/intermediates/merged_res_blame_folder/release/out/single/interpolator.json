@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\interpolator\\fast_out_slow_in.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\interpolator\\fast_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\interpolator\\btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    }
+]

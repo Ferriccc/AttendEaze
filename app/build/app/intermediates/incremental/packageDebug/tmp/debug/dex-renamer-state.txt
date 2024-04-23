@@ -1,0 +1,7 @@
+#Sun Feb 26 15:38:35 IST 2023
+base.1=C\:\\AttendEaze\\app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes2.dex
+path.1=classes2.dex
+base.0=C\:\\AttendEaze\\app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

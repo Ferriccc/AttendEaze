@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\drawable-v21\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\drawable-v21\\abc_list_divider_material.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_list_divider_material.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\df986c4a2051c2ff33c412eab3a1cd4f\\transformed\\appcompat-1.5.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\app\\build\\flutter_email_sender\\intermediates\\merged_res\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\Shrey\\.gradle\\caches\\transforms-3\\42e6491f5f37d2219727138ee1097e2e\\transformed\\core-1.8.0\\res\\drawable-v21\\notification_action_background.xml"
+    }
+]

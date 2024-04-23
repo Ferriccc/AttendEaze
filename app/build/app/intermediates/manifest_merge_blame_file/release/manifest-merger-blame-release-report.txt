@@ -1,0 +1,278 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+8-->C:\app\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\app\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\app\android\app\src\main\AndroidManifest.xml:3:5-65
+11-->C:\app\android\app\src\main\AndroidManifest.xml:3:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->C:\app\android\app\src\main\AndroidManifest.xml:4:5-60
+13-->C:\app\android\app\src\main\AndroidManifest.xml:4:19-57
+14
+15    <queries>
+15-->C:\app\android\app\src\main\AndroidManifest.xml:38:5-43:15
+16        <intent>
+16-->C:\app\android\app\src\main\AndroidManifest.xml:39:9-42:18
+17            <action android:name="android.intent.action.SENDTO" />
+17-->C:\app\android\app\src\main\AndroidManifest.xml:40:13-67
+17-->C:\app\android\app\src\main\AndroidManifest.xml:40:21-64
+18
+19            <data android:scheme="mailto" />
+19-->C:\app\android\app\src\main\AndroidManifest.xml:41:13-45
+19-->C:\app\android\app\src\main\AndroidManifest.xml:41:19-42
+20        </intent>
+21    </queries>
+22
+23    <uses-permission android:name="android.permission.INTERNET" />
+23-->C:\app\android\app\src\main\AndroidManifest.xml:44:5-66
+23-->C:\app\android\app\src\main\AndroidManifest.xml:44:22-64
+24    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+24-->C:\app\android\app\src\main\AndroidManifest.xml:45:5-80
+24-->C:\app\android\app\src\main\AndroidManifest.xml:45:22-78
+25
+26    <uses-feature
+26-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:28:5-30:36
+27        android:name="android.hardware.camera.front"
+27-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:29:9-53
+28        android:required="false" /> <!-- TODO replace above two with next line after Android 4.2 -->
+28-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:30:9-33
+29    <!-- <uses-feature android:name="android.hardware.camera.any"/> -->
+30    <uses-feature
+30-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:33:5-35:36
+31        android:name="android.hardware.camera.autofocus"
+31-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:34:9-57
+32        android:required="false" />
+32-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:35:9-33
+33    <uses-feature
+33-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:36:5-38:36
+34        android:name="android.hardware.camera.flash"
+34-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:37:9-53
+35        android:required="false" />
+35-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:38:9-33
+36    <uses-feature
+36-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:39:5-41:36
+37        android:name="android.hardware.screen.landscape"
+37-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:40:9-57
+38        android:required="false" />
+38-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:41:9-33
+39    <uses-feature
+39-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:42:5-44:36
+40        android:name="android.hardware.wifi"
+40-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:43:9-45
+41        android:required="false" />
+41-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:44:9-33
+42
+43    <application
+44        android:name="io.flutter.app.FlutterMultiDexApplication"
+44-->C:\app\android\app\src\main\AndroidManifest.xml:9:9-42
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.8.0] C:\Users\Shrey\.gradle\caches\transforms-3\42e6491f5f37d2219727138ee1097e2e\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+46        android:icon="@mipmap/launcher_icon"
+46-->C:\app\android\app\src\main\AndroidManifest.xml:10:9-45
+47        android:label="AttendEaze"
+47-->C:\app\android\app\src\main\AndroidManifest.xml:8:9-35
+48        android:requestLegacyExternalStorage="true"
+48-->C:\app\android\app\src\main\AndroidManifest.xml:7:9-52
+49        android:usesCleartextTraffic="true" >
+49-->C:\app\android\app\src\main\AndroidManifest.xml:6:9-44
+50        <activity
+50-->C:\app\android\app\src\main\AndroidManifest.xml:11:9-31:20
+51            android:name="com.example.app.MainActivity"
+51-->C:\app\android\app\src\main\AndroidManifest.xml:12:13-41
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+52-->C:\app\android\app\src\main\AndroidManifest.xml:16:13-163
+53            android:exported="true"
+53-->C:\app\android\app\src\main\AndroidManifest.xml:13:13-36
+54            android:hardwareAccelerated="true"
+54-->C:\app\android\app\src\main\AndroidManifest.xml:17:13-47
+55            android:launchMode="singleTop"
+55-->C:\app\android\app\src\main\AndroidManifest.xml:14:13-43
+56            android:theme="@style/LaunchTheme"
+56-->C:\app\android\app\src\main\AndroidManifest.xml:15:13-47
+57            android:windowSoftInputMode="adjustResize" >
+57-->C:\app\android\app\src\main\AndroidManifest.xml:18:13-55
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+65-->C:\app\android\app\src\main\AndroidManifest.xml:23:13-26:17
+66                android:name="io.flutter.embedding.android.NormalTheme"
+66-->C:\app\android\app\src\main\AndroidManifest.xml:24:15-70
+67                android:resource="@style/NormalTheme" />
+67-->C:\app\android\app\src\main\AndroidManifest.xml:25:15-52
+68
+69            <intent-filter>
+69-->C:\app\android\app\src\main\AndroidManifest.xml:27:13-30:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->C:\app\android\app\src\main\AndroidManifest.xml:28:17-68
+70-->C:\app\android\app\src\main\AndroidManifest.xml:28:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->C:\app\android\app\src\main\AndroidManifest.xml:29:17-76
+72-->C:\app\android\app\src\main\AndroidManifest.xml:29:27-74
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+79-->C:\app\android\app\src\main\AndroidManifest.xml:34:9-36:33
+80            android:name="flutterEmbedding"
+80-->C:\app\android\app\src\main\AndroidManifest.xml:35:13-44
+81            android:value="2" />
+81-->C:\app\android\app\src\main\AndroidManifest.xml:36:13-30
+82
+83        <service
+83-->[:firebase_core] C:\app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-14:19
+84            android:name="com.google.firebase.components.ComponentDiscoveryService"
+84-->[:firebase_core] C:\app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:10:18-89
+85            android:directBootAware="true"
+85-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:34:13-43
+86            android:exported="false" >
+86-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:35:13-37
+87            <meta-data
+87-->[:firebase_core] C:\app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-13:85
+88                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+88-->[:firebase_core] C:\app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:12:17-124
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[:firebase_core] C:\app\build\firebase_core\intermediates\merged_manifest\release\AndroidManifest.xml:13:17-82
+90        </service>
+91
+92        <provider
+92-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-18:20
+93            android:name="com.sidlatau.flutteremailsender.FlutterEmailSenderFileProvider"
+93-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:11:13-90
+94            android:authorities="com.example.app.file_provider"
+94-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:12:13-65
+95            android:exported="false"
+95-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:13:13-37
+96            android:grantUriPermissions="true" >
+96-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:14:13-47
+97            <meta-data
+97-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:15:13-17:61
+98                android:name="android.support.FILE_PROVIDER_PATHS"
+98-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:16:17-67
+99                android:resource="@xml/shared_file_paths" />
+99-->[:flutter_email_sender] C:\app\build\flutter_email_sender\intermediates\merged_manifest\release\AndroidManifest.xml:17:17-58
+100        </provider>
+101
+102        <uses-library
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\Shrey\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+103            android:name="androidx.window.extensions"
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\Shrey\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+104            android:required="false" />
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\Shrey\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+105        <uses-library
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\Shrey\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+106            android:name="androidx.window.sidecar"
+106-->[androidx.window:window:1.0.0-beta04] C:\Users\Shrey\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+107            android:required="false" />
+107-->[androidx.window:window:1.0.0-beta04] C:\Users\Shrey\.gradle\caches\transforms-3\36a45b2abb854eca36c578fbec6ed4df\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+108
+109        <activity
+109-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:23:9-27:75
+110            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+110-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:24:13-93
+111            android:excludeFromRecents="true"
+111-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:25:13-46
+112            android:exported="false"
+112-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:26:13-37
+113            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+113-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:27:13-72
+114        <!--
+115            Service handling Google Sign-In user revocation. For apps that do not integrate with
+116            Google Sign-In, this service will never be started.
+117        -->
+118        <service
+118-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:33:9-37:51
+119            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+119-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:34:13-89
+120            android:exported="true"
+120-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:35:13-36
+121            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+121-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:36:13-107
+122            android:visibleToInstantApps="true" />
+122-->[com.google.android.gms:play-services-auth:20.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\cfcef290f4544b1d1241a9797c7dbe32\transformed\jetified-play-services-auth-20.4.1\AndroidManifest.xml:37:13-48
+123
+124        <activity
+124-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shrey\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+125            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+125-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shrey\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+126            android:exported="false"
+126-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shrey\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+127            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+127-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Shrey\.gradle\caches\transforms-3\27ed75583d8888cfd149af38bb71ea35\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+128
+129        <provider
+129-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:25:9-30:39
+130            android:name="com.google.firebase.provider.FirebaseInitProvider"
+130-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:26:13-77
+131            android:authorities="com.example.app.firebaseinitprovider"
+131-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:27:13-72
+132            android:directBootAware="true"
+132-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:28:13-43
+133            android:exported="false"
+133-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:29:13-37
+134            android:initOrder="100" />
+134-->[com.google.firebase:firebase-common:20.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\17f61bb9398e1f5c13b56fc5aeeddc14\transformed\jetified-firebase-common-20.3.0\AndroidManifest.xml:30:13-36
+135
+136        <meta-data
+136-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shrey\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+137            android:name="com.google.android.gms.version"
+137-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shrey\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+138            android:value="@integer/google_play_services_version" />
+138-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\Shrey\.gradle\caches\transforms-3\4c5cefc4bced38f73a0cc4404fde07b9\transformed\jetified-play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+139
+140        <provider
+140-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shrey\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+141            android:name="androidx.startup.InitializationProvider"
+141-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shrey\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+142            android:authorities="com.example.app.androidx-startup"
+142-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shrey\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+143            android:exported="false" >
+143-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shrey\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+144            <meta-data
+144-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shrey\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+145                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+145-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shrey\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+146                android:value="androidx.startup" />
+146-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Shrey\.gradle\caches\transforms-3\139df1bb0f6415360dd2f0c567788f39\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+147            <meta-data
+147-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\bb2f305ba277f3a8decb0c384770ed44\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+148                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+148-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\bb2f305ba277f3a8decb0c384770ed44\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+149                android:value="androidx.startup" />
+149-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Shrey\.gradle\caches\transforms-3\bb2f305ba277f3a8decb0c384770ed44\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+150        </provider>
+151
+152        <activity
+152-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:47:9-53:63
+153            android:name="com.journeyapps.barcodescanner.CaptureActivity"
+153-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:48:13-74
+154            android:clearTaskOnLaunch="true"
+154-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:49:13-45
+155            android:screenOrientation="sensorLandscape"
+155-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:50:13-56
+156            android:stateNotNeeded="true"
+156-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:51:13-42
+157            android:theme="@style/zxing_CaptureTheme"
+157-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:52:13-54
+158            android:windowSoftInputMode="stateAlwaysHidden" />
+158-->[com.journeyapps:zxing-android-embedded:4.3.0] C:\Users\Shrey\.gradle\caches\transforms-3\152938b4c6b2b812e6c551935a478834\transformed\jetified-zxing-android-embedded-4.3.0\AndroidManifest.xml:53:13-60
+159    </application>
+160
+161</manifest>
