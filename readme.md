@@ -1,3 +1,4 @@
+
 # AttendEaze
 
 AttendEaze aims to remove the hassle of taking attendance of any kind manually, leveraging QR codes, it automates the task.
@@ -5,6 +6,7 @@ AttendEaze aims to remove the hassle of taking attendance of any kind manually, 
 
 ## Features
 * Cross-platform, works on both Android and Ios.
+* Highly intuitive UI design for ease of use.
 * Google Auth & sync with google accounts.
 * Two-phase support (one can commence a event and also attend other events)
 * Attendance data can be uploaded to google drive automatically in csv format
